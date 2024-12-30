@@ -4,9 +4,9 @@ import image from "../images/slider-img.jpg";
 function Main() {
   return (
     <div className='main'>
-       <div class="container">
-  <div class="row">
-    <div class="col-sm ">
+       <div className="container">
+  <div className="row">
+    <div className="col-sm ">
         <div className='cont'>
       <h1 className='cont1'>ELECTRICAL</h1>
       <h1 className='cont1'>SERVICE</h1>
@@ -17,7 +17,7 @@ function Main() {
       <button className='but'>Contact us</button>
       </div>
     </div>
-    <div class="col-sm">
+    <div className="col-sm">
     <div className="circle-container">
       <div className="circle">
         <img src={image} alt="Worker" className="circle-image" />

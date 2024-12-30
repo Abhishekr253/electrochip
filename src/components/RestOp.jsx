@@ -30,12 +30,12 @@ function RestOp() {
     <div>
         <p className='head'> <span className='text'>Our Services</span> <img src={image2}/> </p> 
 
-        <div class="container">
-  <div class="row">
+        <div className="container">
+  <div className="row">
 
 
-    <div class="col">
-    <MDBCard>
+    <div className="col">
+    <MDBCard className='cards'>
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image3} fluid alt='...' />
         <a>
@@ -53,8 +53,8 @@ function RestOp() {
     </div>
 
 
-    <div class="col">
-    <MDBCard>
+    <div className="col">
+    <MDBCard className='cards'>
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image4} fluid alt='...' />
         <a>
@@ -73,8 +73,8 @@ function RestOp() {
 
 
 
-    <div class="col">
-    <MDBCard>
+    <div className="col">
+    <MDBCard className='cards'>
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image5} fluid alt='...' />
         <a>
@@ -91,9 +91,9 @@ function RestOp() {
     </MDBCard>
     </div>
 
-    <div class="container pt-5">
-  <div class="row">
-    <div class="col">
+    <div className="container pt-5">
+  <div className="row">
+    <div className="col">
     <MDBCard className='card2'>
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image6} fluid alt='...' />
@@ -110,7 +110,7 @@ function RestOp() {
       </MDBCardBody>
     </MDBCard>
     </div>
-    <div class="col">
+    <div className="col">
     <MDBCard className='card1'>
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image7} fluid alt='...' />
@@ -163,9 +163,9 @@ function RestOp() {
     <p className='head'> <span className='text'>BLOG</span> <img src={image2}/> </p> 
 
  <div>
- <div class="container pt-5">
-  <div class="row">
-    <div class="col">
+ <div className="container pt-5">
+  <div className="row">
+    <div className="col">
     <MDBCard >
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image10} fluid alt='...' />
@@ -182,7 +182,7 @@ function RestOp() {
       </MDBCardBody>
     </MDBCard>
     </div>
-    <div class="col">
+    <div className="col">
     <MDBCard >
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay text-center'>
         <MDBCardImage  src={image11} fluid alt='...' />
@@ -219,7 +219,7 @@ function RestOp() {
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9996541007596!2d2.2922923156747427!3d48.85884497928795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f3e4b14fbcf%3A0x40b82c3688c9460!2sEiffel%20Tower!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
   width="100%"
   height="390px"
-  allowfullscreen=""
+  allowFullScreen=""
   loading="lazy"
 ></iframe>
 
